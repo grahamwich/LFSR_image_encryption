@@ -8,7 +8,7 @@
 void transform(sf::Image&, LFSR*);
 
 // main should take arguments in the format:
-// "PhotoMagic", inputfile, outputfile, lfsr seed
+// inputfile, outputfile, lfsr seed
 // which will go to argv[0], ...[1], ...[2], ...[3]
 int main(int argc, char* argv[]) {
 

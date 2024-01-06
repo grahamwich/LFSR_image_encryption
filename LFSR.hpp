@@ -14,7 +14,6 @@ public:
 	
 	std::string getCurrSeed(); //accessor used in boost testing
 private:
-	// Any fields that you need
 	std::string _seed = "000000000000001";
 	int _tapResult = 0;
 	int _kbit = 0;
